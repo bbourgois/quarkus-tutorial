@@ -18,9 +18,9 @@ import java.util.stream.Collectors;
 @Path("/fruit")
 public class FruitResource {
     @Inject
-    private FruitRepository fruitRepository;
+    FruitRepository fruitRepository;
     @RestClient
-    private FruityViceService fruityViceService;
+    FruityViceService fruityViceService;
 
     @GET
     @Produces(MediaType.APPLICATION_JSON)
