@@ -1,0 +1,9 @@
+INSERT INTO Fruit(id,name,season) VALUES (nextval('hibernate_sequence'),'Mango','SPRING');
+INSERT INTO Fruit(id,name,season) VALUES (nextval('hibernate_sequence'),'Strawberry','SPRING');
+INSERT INTO Fruit(id,name,season) VALUES (nextval('hibernate_sequence'),'Orange','WINTER');
+INSERT INTO Fruit(id,name,season) VALUES (nextval('hibernate_sequence'),'Lemon','WINTER');
+INSERT INTO Fruit(id,name,season) VALUES (nextval('hibernate_sequence'),'Blueberry','SUMMER');
+INSERT INTO Fruit(id,name,season) VALUES (nextval('hibernate_sequence'),'Banana','SUMMER');
+INSERT INTO Fruit(id,name,season) VALUES (nextval('hibernate_sequence'),'Watermelon','SUMMER');
+INSERT INTO Fruit(id,name,season) VALUES (nextval('hibernate_sequence'),'Apple','FALL');
+INSERT INTO Fruit(id,name,season) VALUES (nextval('hibernate_sequence'),'Pear','FALL');
